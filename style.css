@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  navbar  */
+
+.logo {
+  width: 6vw;
+  height: 10vh;
+  border-radius: 50%;
+  border: 2px solid #ff5900;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1rem;
+  font-weight: 1000;
+  color:#ff5900;
+  font-size: 2vw;
+}
+
+.navbar {
+  background-color: rgba(205, 201, 201, 0.336);
+}
+
+.navbar .container-fluid {
+  box-shadow: 0.2rem 0.2rem rgb(250, 210, 154);
+}
+
+.navbar-nav {
+  width: 50vw;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.btn {
+  background-color: #ff5900;
+  width: 8rem;
+  height: 3rem;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  color: black;
+  background-color: #ff5900;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  font-size: 1.5vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff5900;
+}
+
+/* first section */
+
+
+.first-section .card-title {
+  color: white;
+  font-weight: 800;
+  font-size: 5vw;
+}
+
+.first-section .card-text {
+  color: grey;
+  font-weight: 700;
+  font-size: 2vw;
+}
+
+.first-section .size {
+  width: 50%;
+}
+
+.orange {
+  color: #ff5900;
+}
+
+.first-section .card-img {
+  opacity: 20%;
+}
+
+/* second section */
+
+.card {
+  border: none;
+}
+
+.second-section .width {
+  width: 40%;
+}
+
+.divide {
+  gap: 15vw;
+}
+
+.second-section .card-title {
+  font-size: 2.5vw
+}
+
+.second-section .card-text {
+  font-size: 1.3vw
+}
+
+/* third section */
+
+
+.third-section .card-title {
+  font-size: 2.5vw
+}
+
+.third-section .card-text {
+  font-size: 1.3vw
+}
+
+@media screen and (max-width: 993px) {
+
+    .navbar {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+    }
+
+    .navbar-nav {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+    }
+
+    .btn {
+      width: 9vw;
+      font-size: 1.5vw;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 2.5vw;
+}
+
+.logo {
+  width: 8vw;
+}
+}
+
+@media screen and (max-width: 745px) {
+  /* navbar */
+
+  .logo {
+    width: 11vw;
+}
+
+  .navbar-nav {
+    width: 50vw;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 2.8vw;
+  }
+
+  .navbar-brand {
+      font-size: 3vw;
+  }
+
+  .btn {
+    font-size: 2.3vw;
+    width: 10vw;
+}
+
+  /* first-section */
+  
+
+  /* second-section */
+  .second-section .card-title {
+    font-size: 3.5vw;
+  }
+
+  .second-section .card-text {
+    font-size: 1.6vw;
+}
+
+  /* third-section */
+
+  .third-section .card-text {
+    font-size: 1.5vw;
+}
+}
+
+@media screen and (max-width: 560px) {
+  /* navbar */
+  .logo {
+    width: 7vh;
+}
+
+.navbar-nav {
+  width: 57vw;
+}
+
+.navbar-nav .nav-link {
+  font-size: 2.6vw;
+}
+  /* first-section */
+  .first-section .card-title {
+    font-size: 7vw;
+}
+
+.first-section .card-text {
+  font-size: 2.5vw;
+}
+   /* second-section */
+   .second-section .width {
+    width: 49%;
+}
+
+.second-section .card-title {
+  font-size: 3vw;
+}
+
+.second-section .card-text {
+  font-size: 1.77vw;
+}
+   /* third-section */
+   .third-section .card-text {
+    font-size: 2vw;
+}
+}
+
+@media screen and (max-width: 493px) {
+  .btn {
+    height: 4vh;
+}
+
+.second-section .card-text {
+  font-size: 1.67vw;
+}
+}
+
+@media screen and (max-width: 455px) {
+  .second-section .card-title {
+    font-size: 2.65vw;
+}
+
+.second-section .card-text {
+  font-size: 1.55vw;
+}
+
+.navbar-nav {
+  width: 60vw;
+}
+}
